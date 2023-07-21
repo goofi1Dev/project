@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    background-color: white;
+    transition: 2s;
+    color: black;
+}
+
+button{
+    border: none;
+    width: 200px;
+    height:50px;
+    background-color: none;
+    margin: 300px;
+    background: linear-gradient(270deg, rgba(31, 215, 232, 0.873) 10%,rgba(2, 29, 78, 0.681) 90%);
+    transition: 2s;
+}
+button:active{
+    scale: 0.73;
+}
+button:hover{
+    transition: 2s;
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.darkMode{
+    transition: 2s;
+    color: white;
+    background-color: rgb(23, 23, 23);
+}
