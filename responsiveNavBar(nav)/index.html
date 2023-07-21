@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <script src="https://kit.fontawesome.com/b2ba17e5a8.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        
+                <div class="conteiner">
+                    <div>
+                        <h1>navBar with responsive</h1>
+                    </div>
+                    <div class="dactop">
+                        <ul>
+                            <li>Home</li>
+                            <li>About Us</li>
+                            <li>contect</li>
+                        </ul>
+                    </div>
+                    <div class="menu" onclick="toggleMenu()">
+                        <img src="./burger.png" alt="">
+                    </div>   
+                </div>
+
+        <div class="burger" id="burgerMenu">
+            <div class="close" onclick="toggleMenu()">
+                <div>
+                    <i class="fa-solid fa-x" style="color: #ffffff;"></i>
+                </div>
+                <div class="burgerLi">
+                    <li>HOME</li>
+                    <li>ABOUT US</li>
+                    <li>MENU</li>
+                    <li>register</li>
+                </div>    
+            </div>
+        </div>   
+    </nav>
+    
+    <script src="./js/index.js"></script>
+</body>
+</html>
