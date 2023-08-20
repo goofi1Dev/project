@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(23, 23, 23);
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+#ticTAc{
+    width: 600px;
+    height: 690px;
+    background-color: aqua;
+    border-radius: 9%;
+}
+.game{
+    user-select: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 200px;
+    height: 230px;
+    float: left;
+    border: 7px solid rgb(23, 23, 23);
+    text-align: center;
+    font-size: 200px;
+    font-family: 'Lumanosimo', cursive;
+}
+button{
+    cursor: pointer;
+    color: aqua;
+    background-color: darkgray;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+    text-align: center;
+}
+.reset{
+    text-align: center;
+}
