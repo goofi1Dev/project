@@ -1,0 +1,28 @@
+.conteiner {
+    text-align: center;
+    height: 100vh;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color:cornflowerblue;
+    margin-top: 100px;
+}
+p{
+    font-size: 120px;
+    color: rgb(12, 71, 12);
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    gap: 20px;
+}
+button{
+    background: none;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 200px;
+    padding: 10px;
+}
