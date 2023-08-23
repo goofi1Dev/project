@@ -1,0 +1,15 @@
+.content {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    padding: 50px;
+    color: cadetblue;
+    user-select: none;
+}
+
+li{
+    list-style-type: none;
+    cursor: pointer;
+}
