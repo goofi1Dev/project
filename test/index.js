@@ -59,3 +59,39 @@ delete obj.num;
 console.log(obj.num);
 // autput undefined
 
+const array2 = [40,20,90,30,60,70,10,50];
+array2.sort()
+console.log(array2);
+// autput 10 20 30 40 50 60 70 90
+
+const names = ['Ember','Jon','Anna','Bob','Mike','Alex'];
+names.sort();
+console.log(names);
+// a b c d e f 
+
+const age = [10,20,30,40,50,80,90]
+const old = age.find(function(ages){
+    return ages>29
+})
+console.log(old);
+// autput 30
+const price = [10,20,30,40,50,80,90]
+const product = price.filter(function(products){
+    return products > 19
+})
+console.log(product);   
+// autput 20 30 40 50 80 90
+const price2 = [10,20,30,40,50];
+const sale = price2.map(function(num){
+    return num*2
+})
+console.log(sale);
+// autput 20  40 60 80 100 
+const fruit = ['apple', 'orange', 'banana']
+fruit.push('mango')
+fruit.pop()
+fruit.unshift('limone')
+fruit.shift()
+console.log(fruit);
+// // /// 
+
