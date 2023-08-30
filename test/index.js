@@ -95,3 +95,40 @@ fruit.shift()
 console.log(fruit);
 // // /// 
 
+let day = 3 ;
+switch(day){
+    case 1:
+        console.log('day 1')
+        break;
+    case 2:
+        console.log('day 2')
+        break;
+    case 3:
+        console.log('day 3')
+        break;
+    case 4:
+        console.log('day 4')
+        break;
+    case 5:
+        console.log('day 5')
+        break;
+    case 6:
+        console.log('day 6')
+        break;
+    case 7:
+        console.log('day 7')
+        break;
+}
+
+/// // 
+for (let i = 1 ; i <= 10; i++) {
+    nam(i)
+}
+
+function nam(n){
+    for(let i = 1;i <= 10; i++){
+        let table = n * i
+        console.log(table)
+    }
+}
+//
