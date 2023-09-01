@@ -132,3 +132,6 @@ function nam(n){
     }
 }
 //
+let nam = Boolean('0');
+console.log('nam')
+
